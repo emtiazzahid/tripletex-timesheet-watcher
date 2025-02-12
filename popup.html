@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripletex Timesheet Watcher</title>
+    <link rel="stylesheet" href="popup.css">
+    <script src="popup.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Tripletex Timesheet Watcher</h2>
+
+        <div class="switch-group">
+            <label for="watcherToggle">Enable Watcher</label>
+            <label class="switch">
+                <input type="checkbox" id="watcherToggle">
+                <span class="slider round"></span>
+            </label>
+        </div>
+
+        <div class="input-group">
+            <label for="contextId">Context ID</label>
+            <input type="text" id="contextId" placeholder="Enter Context ID">
+        </div>
+
+        <div class="input-group">
+            <label for="interval">Update Interval (minutes)</label>
+            <input type="number" id="interval" min="1" value="15">
+        </div>
+
+        <button id="save">Save Settings</button>
+        <p class="status-message" id="status"></p>
+    </div>
+</body>
+</html>
