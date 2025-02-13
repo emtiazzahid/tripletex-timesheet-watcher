@@ -16,7 +16,7 @@ Tripletex Watcher is a simple Chrome extension that automatically opens the Trip
 Since this extension is not available in the Chrome Web Store, you need to install it manually using the **"Load Unpacked"** method.
 
 ### **Step 1: Download the Extension**
-1. Click [here](https://your-download-link.com) to download the latest version.
+1. Click [here](http://github.com/emtiazzahid/tripletex-timesheet-watcher/archive/main.zip) to download the latest version.
 2. Extract the downloaded ZIP file to a folder on your computer.
 
 ### **Step 2: Enable Developer Mode in Chrome**
